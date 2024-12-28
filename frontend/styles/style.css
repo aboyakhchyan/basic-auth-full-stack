@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 2rem;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.input-login, .input-password {
+    width: 200px;
+    height: 40px; 
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(235, 233, 233);
+    padding-left: 20px;
+    font-size: 16px; 
+    font-family: 'Courier New', Courier, monospace;
+    color: #333; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+    outline: none;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: lightblue;
+    box-shadow: 0 2px 4px lightslategray; 
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error-text {
+    color: red;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #434343;
+    width: max-content; 
+    height: 100%; 
+    aspect-ratio: 1 / 1; 
+    border-radius: 50%;
+}
+
+.login-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: white;
+}
